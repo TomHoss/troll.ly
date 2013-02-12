@@ -5,6 +5,11 @@ class SnitchesController < ApplicationController
   end
 
   def update
-    render :json => {}, :status => :ok
+    #FIXME: Fix inital post
+    begin
+      
+    rescue
+      render :json => {}, :status => :ok
+    end
   end
 end
