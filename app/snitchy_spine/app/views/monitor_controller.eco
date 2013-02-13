@@ -1,0 +1,5 @@
+<nav>
+  <a href="#" id="snitchy_link">Snitchy</a>
+  <a href="#" id="about_link">about</a>
+  <a href="#" id="feedback_link">feedback</a>
+</nav>

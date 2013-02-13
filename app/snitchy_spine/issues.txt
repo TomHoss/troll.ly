@@ -1,0 +1,2 @@
+Drag and drop of folders not supported in Firefox
+Sound replay not working in chrome
