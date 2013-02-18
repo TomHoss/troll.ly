@@ -1,3 +1,4 @@
-<span>DROP IMAGES</span>
-<span>Drag and Drop a folder of <span class="bold">10-25 images.</span></span>
+<div class="header">DROP IMAGES</div>
+<div class="sub-header">Drag and Drop a folder of <span class="bold">10-25 images.</span></div>
+<div id="slides"></div>
 <a href="#" id="build_snitch_next" class="btn" style="display: none;">NEXT</a>

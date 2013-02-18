@@ -9,6 +9,7 @@ class BuildSnitchController extends Spine.Controller
 
   elements:
     "#build_snitch_next": "next"
+    "#slides"           : "slides"
 
   constructor: ->
     super
@@ -33,7 +34,7 @@ class BuildSnitchController extends Spine.Controller
     reader = new FileReader()
     reader.onload = (oFREvent) =>
       data_url = oFREvent.target.result
-      @append "<img src='#{data_url}' class='thumb'>"
+      @slides.append "<div class='slide-container'><img src='#{data_url}' class='thumb'></div>"
       Spine.snitch.slides.push data_url
 
     for file in data.files

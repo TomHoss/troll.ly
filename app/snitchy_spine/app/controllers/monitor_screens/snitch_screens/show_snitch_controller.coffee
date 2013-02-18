@@ -3,9 +3,6 @@ Spine = require('spine')
 class ShowSnitchController extends Spine.Controller
   className: "show_snitch_controller screen"
 
-  elements:
-    "#slides": "slides"
-
   constructor: ->
     super
     @html require("views/show_snitch_controller")

@@ -29,7 +29,7 @@ class UploadingController extends TransitionController
     =>
       count++
       #TODO: The increments should be exactly distributed over the interal and the next line not needed if done correctly, although it's kinda cool that it hangs on 100...
-      @progress.text(count) unless count > 100
+      @progress.text(count.toString() + "%") unless count > 100
 
   activateNextScreen: =>
     @stack["BuildSnitchController"].active()
