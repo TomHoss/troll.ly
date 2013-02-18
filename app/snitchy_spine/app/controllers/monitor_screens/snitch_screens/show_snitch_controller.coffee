@@ -46,6 +46,8 @@ class ShowSnitchController extends Spine.Controller
       console.log "Time"
       Spine.player.pauseVideo()), 3000
 
+    #TODO: Use on state change etc to check if a video is buffering, etc
+
     #different videos take different amount of times to load
     #can't really preload it
     #it's indeterminate
