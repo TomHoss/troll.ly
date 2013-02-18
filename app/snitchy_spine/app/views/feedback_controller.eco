@@ -1,1 +1,3 @@
-<div>FEEDBACK</div>
+<input type="text" placeholder="Your email" id="your_email"></input>
+<textarea id="your_thoughts" placeholder="Your thoughts on Snitchy"></textarea>
+<a class="btn next">SEND</a>
