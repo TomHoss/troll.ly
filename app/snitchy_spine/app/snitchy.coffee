@@ -7,5 +7,6 @@ class Snitchy extends Spine.Controller
   constructor: ->
     super
     @append new MonitorController()
+    @append "<div id='player'></div>"
 
 module.exports = Snitchy

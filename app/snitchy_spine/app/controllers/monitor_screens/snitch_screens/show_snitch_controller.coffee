@@ -5,7 +5,6 @@ class ShowSnitchController extends Spine.Controller
 
   constructor: ->
     super
-    @html require("views/show_snitch_controller")
     @active @showHashFragment
     @active @showSnitch
     Spine.bind "YoutubeLinkSet", =>
@@ -45,7 +44,7 @@ class ShowSnitchController extends Spine.Controller
     Spine.player.playVideo()
     setTimeout ( ->
       console.log "Time"
-      Spine.player.pauseVideo()), 5000
+      Spine.player.pauseVideo()), 3000
 
     #different videos take different amount of times to load
     #can't really preload it
