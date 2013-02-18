@@ -1,4 +1,5 @@
 <div class="header">DROP IMAGES</div>
 <div class="sub-header">Drag and Drop a folder of <span class="bold">10-25 images.</span></div>
 <div id="slides"></div>
-<a href="#" id="build_snitch_next" class="btn" style="display: none;">NEXT</a>
+<!-- Design overlook! This cannot fit more than 18 images! -->
+<a href="#" id="build_snitch_next" class="next btn" style="display: none;">NEXT</a>

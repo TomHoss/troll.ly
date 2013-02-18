@@ -37,7 +37,7 @@ class YoutubeLinkController extends Spine.Controller
 
   onYouTubeIframeAPIReady: ->
     #TODO:  What to do if youtube is down?  Cache JS file?
-    @youtubeInput.attr("placeholder", "Paste a YouTube link here.")
+    @youtubeInput.attr("placeholder", "Paste a Youtube link here.")
     @youtubeInput.attr("disabled", false)
 
 module.exports = YoutubeLinkController

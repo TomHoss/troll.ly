@@ -1,3 +1,3 @@
-<span>DROP MUSIC</span>
+<div class='header'>DROP MUSIC</div>
 <input type="text" placeholder="Loading..." id="youtube_input" disabled="disabled"></input>
 <a href="#" class="next btn">NEXT</a>
