@@ -4,8 +4,6 @@
 
 This webapp proof of concept uses a hidden youtube video to play the audio, which it controls via Youtube's iFrame API.
 
-Example: snitchybeta.herokuapp.com
-
-Try It:
+Check out an [example](http://snitchybeta.herokuapp.com/#/snitches/q8txe4ukhz146ofoo4q4qophw7) or [try it](http://snitchybeta.herokuapp.com)
 
 Tech Specs: Rails API + Spine.JS
