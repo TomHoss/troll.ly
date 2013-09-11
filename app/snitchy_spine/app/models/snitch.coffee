@@ -1,7 +1,7 @@
 Spine = require('spine')
 
 class Snitch extends Spine.Model
-  @configure 'Snitch', 'youtube_url'
+  @configure 'Snitch', 'youtube_url', 'slides'
 
   @extend Spine.Model.Ajax
 

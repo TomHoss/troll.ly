@@ -5,7 +5,7 @@ class ShowSnitchController extends Spine.Controller
 
   constructor: ->
     super
-    @active @showHashFragment
+    @active @showHashFragment if window.location.hash != ""
     @active @showSnitch
     Spine.bind "YoutubeLinkSet", =>
       @buildPlayer()
@@ -13,7 +13,7 @@ class ShowSnitchController extends Spine.Controller
   #DISCUSS: Play static noise when page is initally loaded?
   #TODO:  Possibly use navigate and a callback to activate this controller, (would currently be weird with the transition beforehand).  This navigate should really be used to activate this controller, rather than being done after the fact.
   showHashFragment: ->
-    @navigate("/#{Spine.snitch.id}")
+    @navigate("#{Spine.snitch.id}")
 
   showSnitch: ->
     #block until player is ready to play

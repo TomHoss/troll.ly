@@ -25,8 +25,15 @@ class MonitorScreenController extends Spine.Stack
 
   constructor: ->
     super
-    @WhiteNoiseController.sound.bind "canplaythrough", =>
-      @StartController.start.show()
+    #TODO: Show static first.  Last time canplaythrough was getting called too much?!
+    if window.location.hash != ""
+      @ShowSnitchController.active()
+      #Spine.snitch = Snitch.fetch id
+      #fire event
+    else
+      @WhiteNoiseController.sound.bind "canplaythrough", =>
+        @StartController.start.show()
+      @StartController.active()
 
-  default: "StartController"
+
 module.exports = MonitorScreenController
